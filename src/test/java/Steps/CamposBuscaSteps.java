@@ -65,7 +65,9 @@ public class CamposBuscaSteps {
 
 	@Entao("^busca realizada com sucesso$")
 	public void buscaRealizadaComSucesso() throws Throwable {
-		Assert.assertNotNull(driver.findElement(By.xpath("/html/body/section/div/div[3]/div/div/div/div[4]/span/a")));
+		Thread.sleep(3000); 
+		String res = driver.findElement(By.id("tabelaId_info")).getText();
+		Assert.assertNotEquals("Nenhum registro disponível", res);
 	}
 
 	@Quando("^cliquei no botão buscartodos$")
@@ -80,7 +82,9 @@ public class CamposBuscaSteps {
 	
 	@Entao("^nenhum registro encontrado$")
 	public void nenhumRegistroEncontrado() throws Throwable {
-		Assert.assertNotNull(driver.findElement(By.xpath("/html/body/section/div/div[3]/div/div/div/table/tbody/tr/td")));
+		Thread.sleep(3000); 
+		String res = driver.findElement(By.id("tabelaId_info")).getText();
+		Assert.assertEquals("Nenhum registro disponível", res);
 	}
 
 	@Quando("^cliquei no botao buscaruf$")

@@ -1,10 +1,10 @@
 #language: pt
  
-Funcionalidade: Buscar com os campos tipo uf e botão buscar todos
+Funcionalidade: Buscar com o campo tipo
  
 Como um usuario
 Gostaria de pesquisar CNES Ativas 
-a partir dos filtros disponiveis
+a partir do filtro tipo
 
  
 Contexto:

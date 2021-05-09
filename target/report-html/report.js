@@ -7,9 +7,9 @@ formatter.feature({
     }
   ],
   "line": 3,
-  "name": "Buscar com os campos tipo uf e botão buscar todos",
-  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir dos filtros disponiveis",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos",
+  "name": "Buscar com o campo tipo",
+  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir do filtro tipo",
+  "id": "buscar-com-o-campo-tipo",
   "keyword": "Funcionalidade"
 });
 formatter.background({
@@ -28,14 +28,14 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNoFirefox()"
 });
 formatter.result({
-  "duration": 4522849400,
+  "duration": 4359555700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 13,
   "name": "Deve filtrar busca a partir do campo tipo",
   "description": "",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos;deve-filtrar-busca-a-partir-do-campo-tipo",
+  "id": "buscar-com-o-campo-tipo;deve-filtrar-busca-a-partir-do-campo-tipo",
   "type": "scenario",
   "keyword": "Cenario"
 });
@@ -63,7 +63,7 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNaTelaPrincipal()"
 });
 formatter.result({
-  "duration": 387458900,
+  "duration": 402395700,
   "status": "passed"
 });
 formatter.match({
@@ -76,21 +76,21 @@ formatter.match({
   "location": "CamposBuscaSteps.queBuscoPorNoCampoTipo(String)"
 });
 formatter.result({
-  "duration": 85247200,
+  "duration": 90098700,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.cliqueiNoBotãoBuscartipo()"
 });
 formatter.result({
-  "duration": 27239300,
+  "duration": 27904900,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.buscaRealizadaComSucesso()"
 });
 formatter.result({
-  "duration": 8121300,
+  "duration": 3033351300,
   "status": "passed"
 });
 formatter.background({
@@ -109,14 +109,14 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNoFirefox()"
 });
 formatter.result({
-  "duration": 3717945400,
+  "duration": 3178887100,
   "status": "passed"
 });
 formatter.scenario({
   "line": 19,
   "name": "Deve filtrar busca a partir do campo tipo e n�o encontrar nenhum registro",
   "description": "",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos;deve-filtrar-busca-a-partir-do-campo-tipo-e-n�o-encontrar-nenhum-registro",
+  "id": "buscar-com-o-campo-tipo;deve-filtrar-busca-a-partir-do-campo-tipo-e-n�o-encontrar-nenhum-registro",
   "type": "scenario",
   "keyword": "Cenario"
 });
@@ -144,7 +144,7 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNaTelaPrincipal()"
 });
 formatter.result({
-  "duration": 357506600,
+  "duration": 822317000,
   "status": "passed"
 });
 formatter.match({
@@ -157,21 +157,21 @@ formatter.match({
   "location": "CamposBuscaSteps.queBuscoPorNoCampoTipo(String)"
 });
 formatter.result({
-  "duration": 61980000,
+  "duration": 65476900,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.cliqueiNoBotãoBuscartipo()"
 });
 formatter.result({
-  "duration": 32459800,
+  "duration": 23579100,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.nenhumRegistroEncontrado()"
 });
 formatter.result({
-  "duration": 10992100,
+  "duration": 3021470600,
   "status": "passed"
 });
 formatter.uri("buscarcampostodos.feature");
@@ -183,9 +183,9 @@ formatter.feature({
     }
   ],
   "line": 3,
-  "name": "Buscar com os campos tipo uf e botão buscar todos",
-  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir dos filtros disponiveis",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos",
+  "name": "Buscar com o bot�o todos",
+  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir do bot�o todos",
+  "id": "buscar-com-o-bot�o-todos",
   "keyword": "Funcionalidade"
 });
 formatter.background({
@@ -204,14 +204,14 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNoFirefox()"
 });
 formatter.result({
-  "duration": 4246089200,
+  "duration": 3181535900,
   "status": "passed"
 });
 formatter.scenario({
   "line": 13,
   "name": "Deve filtrar busca a partir do bot�o buscartodos",
   "description": "",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos;deve-filtrar-busca-a-partir-do-bot�o-buscartodos",
+  "id": "buscar-com-o-bot�o-todos;deve-filtrar-busca-a-partir-do-bot�o-buscartodos",
   "type": "scenario",
   "keyword": "Cenario"
 });
@@ -234,21 +234,21 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNaTelaPrincipal()"
 });
 formatter.result({
-  "duration": 338694800,
+  "duration": 352975100,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.cliqueiNoBotãoBuscartodos()"
 });
 formatter.result({
-  "duration": 60253900,
+  "duration": 68211200,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.buscaRealizadaComSucesso()"
 });
 formatter.result({
-  "duration": 10229300,
+  "duration": 3014691900,
   "status": "passed"
 });
 formatter.uri("buscarcamposuf.feature");
@@ -260,9 +260,9 @@ formatter.feature({
     }
   ],
   "line": 3,
-  "name": "Buscar com os campos tipo uf e botão buscar todos",
-  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir dos filtros disponiveis",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos",
+  "name": "Buscar com o campo estado",
+  "description": "\r\nComo um usuario\r\nGostaria de pesquisar CNES Ativas \r\na partir do filtro uf",
+  "id": "buscar-com-o-campo-estado",
   "keyword": "Funcionalidade"
 });
 formatter.background({
@@ -281,14 +281,14 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNoFirefox()"
 });
 formatter.result({
-  "duration": 3219190300,
+  "duration": 4248117700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 13,
   "name": "Deve filtrar busca a partir do campo uf",
   "description": "",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos;deve-filtrar-busca-a-partir-do-campo-uf",
+  "id": "buscar-com-o-campo-estado;deve-filtrar-busca-a-partir-do-campo-uf",
   "type": "scenario",
   "keyword": "Cenario"
 });
@@ -316,7 +316,7 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNaTelaPrincipal()"
 });
 formatter.result({
-  "duration": 389886700,
+  "duration": 362158300,
   "status": "passed"
 });
 formatter.match({
@@ -329,21 +329,21 @@ formatter.match({
   "location": "CamposBuscaSteps.queBuscoPorNoCampoUf(String)"
 });
 formatter.result({
-  "duration": 73493300,
+  "duration": 70758500,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.cliqueiNoBotaoBuscaruf()"
 });
 formatter.result({
-  "duration": 23069200,
+  "duration": 19826800,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.buscaRealizadaComSucesso()"
 });
 formatter.result({
-  "duration": 15961000,
+  "duration": 3028449100,
   "status": "passed"
 });
 formatter.background({
@@ -362,14 +362,14 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNoFirefox()"
 });
 formatter.result({
-  "duration": 4358019900,
+  "duration": 3202050900,
   "status": "passed"
 });
 formatter.scenario({
   "line": 19,
   "name": "Deve filtrar busca a partir do campo uf e n�o encontrar nenhum registro",
   "description": "",
-  "id": "buscar-com-os-campos-tipo-uf-e-botão-buscar-todos;deve-filtrar-busca-a-partir-do-campo-uf-e-n�o-encontrar-nenhum-registro",
+  "id": "buscar-com-o-campo-estado;deve-filtrar-busca-a-partir-do-campo-uf-e-n�o-encontrar-nenhum-registro",
   "type": "scenario",
   "keyword": "Cenario"
 });
@@ -397,7 +397,7 @@ formatter.match({
   "location": "CamposBuscaSteps.queEstouNaTelaPrincipal()"
 });
 formatter.result({
-  "duration": 373936300,
+  "duration": 375334100,
   "status": "passed"
 });
 formatter.match({
@@ -410,21 +410,21 @@ formatter.match({
   "location": "CamposBuscaSteps.queBuscoPorNoCampoUf(String)"
 });
 formatter.result({
-  "duration": 67497400,
+  "duration": 71013700,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.cliqueiNoBotaoBuscaruf()"
 });
 formatter.result({
-  "duration": 26551200,
+  "duration": 21056000,
   "status": "passed"
 });
 formatter.match({
   "location": "CamposBuscaSteps.nenhumRegistroEncontrado()"
 });
 formatter.result({
-  "duration": 8637700,
+  "duration": 3018591100,
   "status": "passed"
 });
 });

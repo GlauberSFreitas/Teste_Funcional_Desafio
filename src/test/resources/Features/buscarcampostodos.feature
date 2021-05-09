@@ -1,10 +1,10 @@
 #language: pt
  
-Funcionalidade: Buscar com os campos tipo uf e bot√£o buscar todos
+Funcionalidade: Buscar com o bot„o todos
  
 Como um usuario
 Gostaria de pesquisar CNES Ativas 
-a partir dos filtros disponiveis
+a partir do bot„o todos
 
  
 Contexto:
